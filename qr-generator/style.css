@@ -7,6 +7,12 @@
 
 html, body{
     background: #262a2f;
+
+
+height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -18,6 +24,8 @@ html, body{
     transform: translate(-50%, -50%);
     background: #fff;
     border-radius: 10px ;
+
+    text-align: center;
 }
 
 .container p{
@@ -62,24 +70,23 @@ html, body{
     justify-content: center;
     align-items: center;
 
-    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #imgBox img{
     width:100%;
+    max-width: 150px;
     padding: 10px ;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: column;
+    display: block;
+    margin: 0 auto;
 }
 
 #imgBox.show-img{
     max-height: 300px;
     margin: 10px auto;
-    border: 1px solix #d1d1d1;
+    border: 1px solid #d1d1d1;
 }
 
 .error{
